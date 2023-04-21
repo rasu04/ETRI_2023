@@ -169,3 +169,7 @@ https://nanum.etri.re.kr/share/schung1/ETRILifelogDataset2020?lang=ko_KR
 - stacking.ipynb
 
   : 앙상블 스태킹 모델 생성 및 적용
+  
+  : RandomForest, SVC, TabNet, XgBoost에서 산출된 output들을 메타데이터로 하여,
+  
+    새로운 RandomForest 모델에 입력 후 스태킹 모델 생성 및 적용
